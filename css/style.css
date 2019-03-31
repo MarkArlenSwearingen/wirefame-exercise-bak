@@ -1,5 +1,5 @@
 body {
-  width: 100%;
+  /* width: 1255px; */
   background-color: gray;
   width: 1020;
 }
@@ -52,6 +52,7 @@ li:hover {
 }
 
 .column1of2, .column2of2 {
+  width: fixed;
   width: 480px;
   float: left;
   margin: 30px;
@@ -62,32 +63,35 @@ li:hover {
   display: block;
 }
 
-#featureBanner {
+/* #featureBanner {
   width: 480px;
   display: inline;
- }
+ } */
 
 footer {
   position: absolute;
-  top: 1800px;
+  top: 1700px;
 }
 
 #calltoaction {
  font-size: 30px;
   width: 300px;
-}
-
-input#submit {
-  color: lightblue;
+  color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: aquamarine;
 }
 
-input#submit:hover{
+#calltoaction:hover{
   border: 2px, solid;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 0px 1px 2px rgb(1,45,245);
   background-color: aqua;
+}
 
+h2, p {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+#rightimageclear {
+  clear: right;
 }
