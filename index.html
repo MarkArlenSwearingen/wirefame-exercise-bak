@@ -6,40 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <div id="header">
-  <h1>Logo</h1>
-</div>
-  <div id="navigation">
-    <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Products</a></li>
-      <li><a href="">Services</a></li>
-      <li><a href="">About</a></li>
-    </ul>
-  </div>
-  <div id="hero">
-    <img src = "https://via.placeholder.com/960x480">
-  </div>
+  <header id="header">
+    <nav id="navigation">
+      <img id="logo" src = "https://via.placeholder.com/200x70">
+      <div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">Products</a></li>
+          <li><a href="services">Services</a></li>
+          <li><a href="about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <figure id="hero">
+    <img src = "https://via.placeholder.com/960x450">
+  </figure>
+
   <div>
-    <p>Sub-Banner1</p>
-    <img src= "https://via.placeholder.com/300x375">
-    <p>Sub-Banner2</p>
-    <img src= "https://via.placeholder.com/300x375">
-    <p>Sub-Banner3</p>
-    <img src= "https://via.placeholder.com/300x375">
+    <div class="column1of3">
+      <img class="column1of3" src= "https://via.placeholder.com/300x375">
+    </div>
+    <div class="column2of3">
+      <img class="column2of3" src= "https://via.placeholder.com/300x375">
+    </div>
+    <div class="column3of3">
+      <img class="column3of3" src= "https://via.placeholder.com/300x375">
+    </div>
   </div>
+  
   <div>
-    <p>Feature Section Banner</p>
-    <img src= "https://via.placeholder.com/480x400">
-    <h2>Feature Section Heading</h2>
-    <p>Feature Section Content</p>
-    <p>button with hover color</p>
-  </div>
-  <div>
+    <div>
+      <p>Lorem ipsum dolor sit amet, nostra massa non dui vulputate, ante ipsum ipsum augue id ut magna, sed facilisi sapien. Leo non nonummy tincidunt turpis suspendisse libero, libero nisl suscipit sed. Deserunt scelerisque facilisi malesuada in, cras eget cupidatat. Nunc inceptos ipsum amet elit litora torquent. Tincidunt vel suspendisse elementum voluptate eros, fusce sapiente nulla, ut lacinia, est mi euismod maecenas in lorem dui. Tortor nisl, sit quam urna.</p>
+      <img class="column1of2" src= "https://via.placeholder.com/480x400">
+    </div>
+    <div>
+      <h2 class="column2of2">Feature Section Heading</h2>
+      <p class="column2of2">Feature Section Content</p>
+      <button type="submit">Call to Action</button>
+      <p class="column2of2">button with hover color</p>
+    </div>
+  </div>   
+  <footer>
     <p>Footer with full width background</p>
-    <img src = "https://via.placeholder.com/1020x60">
-  </div> 
+    <img src = "https://via.placeholder.com/1020x130">
+  </footer> 
 </body>
 </html>

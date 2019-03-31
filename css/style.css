@@ -1,0 +1,93 @@
+body {
+  width: 100%;
+  background-color: gray;
+  width: 1020;
+}
+
+header {
+  width: 1120;
+}
+#header {
+  margin: 30px;
+  height: 100px;
+  vertical-align: middle;
+  background-color: lightgrey;
+}
+
+#logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+}
+
+nav {
+  margin-left: 230px;
+  text-align: right;
+  display: inline;
+  font-size: 30px;
+}
+
+ul {
+  display: inline;
+  list-style: none; 
+}
+
+li {
+  display: inline;
+  margin-right: 30px;
+  background-color: grey;
+  padding: 0px;
+}
+
+li:hover {
+  background-color: lightyellow;
+}
+
+.column1of3, .column2of3, .column3of3 {
+  width: 375px;
+  width: fixed;
+  float: left;
+  margin: 30px;
+}
+
+.column1of2, .column2of2 {
+  width: 480px;
+  float: left;
+  margin: 30px;
+}
+
+#hero {
+  width: fixed;
+  display: block;
+}
+
+#featureBanner {
+  width: 480px;
+  display: inline;
+ }
+
+footer {
+  position: absolute;
+  top: 1800px;
+}
+
+#calltoaction {
+ font-size: 30px;
+  width: 300px;
+}
+
+input#submit {
+  color: lightblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aquamarine;
+}
+
+input#submit:hover{
+  border: 2px, solid;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 1px 2px rgb(1,45,245);
+  background-color: aqua;
+
+
+}
